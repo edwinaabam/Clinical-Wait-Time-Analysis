@@ -1,5 +1,8 @@
 ![Patient Wait Time Dashboard](dashboardreport.png)
 
+## 🔗 Live Application
+You can access the live interactive dashboard here: [Clinical Wait Time Analysis App](https://clinical-wait-time-analysis.streamlit.app/)
+
 # Patient Wait Time Analysis Dashboard
 
 ## Table of Contents

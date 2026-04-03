@@ -2,137 +2,89 @@
 
 # Patient Wait Time Analysis Dashboard
 
-## Overview
-This project presents an interactive Power BI dashboard designed to analyse patient wait times within a multi-departmental healthcare setting. The aim is to identify inefficiencies in patient flow, reduce delays, and improve overall clinical efficiency and patient satisfaction.
+## Table of Contents
+- [Overview](#overview)
+- [Problem](#problem)
+- [Key Metrics](#key-metrics)
+- [Key Insights](#key-insights)
+- [Interpretation](#interpretation)
+- [Business Impact](#business-impact)
+- [Tools](#tools)
+- [Author](#author)
 
-
-##  Project Context
-
-**Pure Life Hospital** is a multi-departmental healthcare provider operating across:
-- Cardiology  
-- Emergency  
-- Orthopedics  
-- Outpatient  
-- Pediatrics  
-
-The hospital leverages Electronic Health Record (EHR) data to analyse **time-based patient flow**, tracking the full patient journey from arrival to discharge.
-
-This project focuses on evaluating and optimising **clinical efficiency**, with emphasis on:
-- Patient wait times  
-- Length of Stay (LOS)  
-- Resource utilisation  
-- Patient experience  
-
-
-##  Problem Statement
-
-Pure Life Hospital is currently experiencing a critical operational breakdown driven by **excessive patient wait times**, negatively impacting both clinical outcomes and hospital revenue.
-
-Analysis reveals significant **non-value-added time**, where patients spend the majority of their visit waiting rather than receiving care.
-
-Key challenges include:
-- Prolonged wait times across departments  
-- Misalignment between **patient demand and staffing levels**, especially during peak periods  
-- High incidence of **LWBS (Left Without Being Seen)**  
-- Extended **Length of Stay (LOS)** reducing patient throughput  
-- Persistently **low patient satisfaction rates (~19.7%)**  
-
-These inefficiencies indicate systemic bottlenecks in patient flow and operational planning.
-
-
-##  Project Goal
-
-The goal of this project is to deliver a **data-driven dashboard solution** that:
-
-- Identifies bottlenecks in patient flow  
-- Analyses wait time patterns across departments and time periods  
-- Monitors key performance indicators (KPIs)  
-- Supports data-driven decision-making to improve efficiency and patient outcomes  
-
-
-##  Key Features
-- **Wait Time Analysis:** Tracks average and total patient wait times  
-- **Patient Satisfaction KPI:** Measures satisfaction levels  
-- **Trend Analysis:** Identifies patterns over time  
-- **Department-Level Insights:** Compares performance across units  
-- **Interactive Visuals:** Enables dynamic filtering and exploration  
-
-
-##  Key Metrics (KPIs)
-- Average Wait Time  
-- Average Length of Stay (LOS)  
-- Average Consultation Time  
-- LWBS Rate (%)  
-- Patient Satisfaction Rate (%)  
-
-
-##  Key Insights & Results
-
-###  Overall Performance
-- **Average Length of Stay (LOS):** 145 minutes  
-- **Average Wait Time (Doctor):** 55 minutes  
-- **Average Consultation Time:** 45 minutes  
-- **LWBS Rate:** 3.1%  
-- **Patient Satisfaction Rate:** 19.7%  
-
-
-###  Wait Time Trends
-- Wait times peaked at **~58 minutes in February**  
-- Reduced to **~52 minutes by June**, indicating improving efficiency  
-
-
-###  Patient Satisfaction Trends
-- Satisfaction dropped to **~15% in March–April**  
-- Recovered to **~27% by June**  
-- Suggests a **relationship between reduced wait times and improved patient experience**  
-
-
-###  Department-Level Insights
-- **Emergency Department:**
-  - Avg LOS: ~205 minutes  
-  - Avg Wait Time: ~85–90 minutes  
-- **Cardiology & Orthopedics:**
-  - Elevated LOS (~140–155 minutes)  
-- **Outpatient:**
-  - Lower wait times and improved flow  
-
- **Emergency identified as the primary bottleneck**
-
-###  Critical Insight: Patient Experience Gap
-Despite operational improvements:
-- Overall satisfaction remains low at **19.7%**  
-- Indicates a gap between **service delivery and patient expectations**  
-- Suggests that factors beyond wait time (e.g., communication, care quality) influence satisfaction  
-
-
-##  Business Impact
-
-This analysis provides actionable insights that enable healthcare providers to:
-
-- **Reduce patient wait times** through targeted interventions  
-- **Improve patient throughput** by addressing bottlenecks  
-- **Optimise staff allocation** during peak demand periods  
-- **Enhance patient satisfaction** by improving both efficiency and experience  
-- **Minimise revenue loss** associated with LWBS cases  
-- **Support sustainable operations**, reducing risk of staff burnout  
-
-
-##  Tools & Technologies
-- **Power BI** – Dashboard development and visualisation  
-- **DAX (Data Analysis Expressions)** – KPI calculations  
-  
-
-
-##  Dataset
-The dataset consists of anonymised patient records, including:
-- Arrival time  
-- Consultation start time  
-- Wait duration  
-- Length of stay  
-- Patient satisfaction indicator  
 ---
 
+## Overview
+Power BI dashboard analysing patient wait times and clinical flow to identify inefficiencies and improve operational performance.
+
+---
+
+## Problem
+Pure Life Hospital is experiencing excessive patient wait times, leading to long lengths of stay, patients leaving without being seen (LWBS), and low satisfaction (19.7%).  
+The core issue is high **non-value-added time**, driven by poor alignment between patient demand and staffing during peak periods.
+
+---
+
+## Key Metrics
+- Average Length of Stay (LOS): 145 minutes  
+- Average Wait Time: 55 minutes  
+- Average Consultation Time: 45 minutes  
+- LWBS Rate: 3.1%  
+- Patient Satisfaction Rate: 19.7%  
+
+---
+
+## Key Insights
+
+**1. Wait Time Performance**
+- Peaked at ~58 minutes (February), reduced to ~52 minutes (June)  
+- Indicates gradual operational improvement, but still above optimal levels  
+
+**2. Patient Satisfaction**
+- Dropped to ~15% (March–April), increased to ~27% (June)  
+- Improvement aligns with reduced wait times, but overall satisfaction remains low  
+
+**3. Department Bottlenecks**
+- Emergency:
+  - LOS ~205 minutes  
+  - Wait Time ~85–90 minutes  
+- Cardiology & Orthopedics also show elevated LOS (140–155 minutes)  
+- Outpatient performs relatively better  
+
+Emergency is the primary constraint on patient flow.
+
+**4. Experience Gap**
+- Satisfaction remains low (19.7%) despite improved wait times  
+- Indicates that wait time reduction alone is insufficient  
+- Suggests influence of additional factors (e.g. service quality, communication)
+
+---
+
+## Interpretation
+
+- Patient flow is constrained by **department-level bottlenecks**, especially Emergency  
+- **Peak-time demand exceeds available capacity**, increasing wait times and LWBS  
+- Reduction in wait time improves satisfaction, but not enough to offset overall experience issues  
+- A large portion of time spent in the system is **non-value-added**
+
+---
+
+## Business Impact
+
+- Targeting Emergency bottlenecks can significantly improve throughput  
+- Aligning staffing with peak demand can reduce wait times and LWBS  
+- Reducing LOS increases capacity without additional infrastructure  
+- Addressing both operational efficiency and patient experience is required to improve satisfaction  
+- Failure to act risks continued revenue loss and staff burnout  
+
+---
+
+## Tools
+- Power BI  
+- DAX  
+
+---
 
 ## Author
-**Edwina Abam**  
+Edwina Abam  
 Data Analyst | Machine Learning | Healthcare Analytics  

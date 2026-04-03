@@ -1,16 +1,10 @@
 ![Patient Wait Time Dashboard](dashboardreport.png)
 
-
-<p align="center">
-  <img src="images/dashboardreport.png" width="800"/>
-</p>
-
 # Patient Wait Time Analysis Dashboard
 
 ## Overview
 This project presents an interactive Power BI dashboard designed to analyse patient wait times within a multi-departmental healthcare setting. The aim is to identify inefficiencies in patient flow, reduce delays, and improve overall clinical efficiency and patient satisfaction.
 
----
 
 ##  Project Context
 
@@ -29,7 +23,6 @@ This project focuses on evaluating and optimising **clinical efficiency**, with 
 - Resource utilisation  
 - Patient experience  
 
----
 
 ##  Problem Statement
 
@@ -46,7 +39,6 @@ Key challenges include:
 
 These inefficiencies indicate systemic bottlenecks in patient flow and operational planning.
 
----
 
 ##  Project Goal
 
@@ -57,7 +49,6 @@ The goal of this project is to deliver a **data-driven dashboard solution** that
 - Monitors key performance indicators (KPIs)  
 - Supports data-driven decision-making to improve efficiency and patient outcomes  
 
----
 
 ##  Key Features
 - **Wait Time Analysis:** Tracks average and total patient wait times  
@@ -66,7 +57,6 @@ The goal of this project is to deliver a **data-driven dashboard solution** that
 - **Department-Level Insights:** Compares performance across units  
 - **Interactive Visuals:** Enables dynamic filtering and exploration  
 
----
 
 ##  Key Metrics (KPIs)
 - Average Wait Time  
@@ -75,7 +65,6 @@ The goal of this project is to deliver a **data-driven dashboard solution** that
 - LWBS Rate (%)  
 - Patient Satisfaction Rate (%)  
 
----
 
 ##  Key Insights & Results
 
@@ -86,20 +75,17 @@ The goal of this project is to deliver a **data-driven dashboard solution** that
 - **LWBS Rate:** 3.1%  
 - **Patient Satisfaction Rate:** 19.7%  
 
----
 
 ###  Wait Time Trends
 - Wait times peaked at **~58 minutes in February**  
 - Reduced to **~52 minutes by June**, indicating improving efficiency  
 
----
 
 ###  Patient Satisfaction Trends
 - Satisfaction dropped to **~15% in March–April**  
 - Recovered to **~27% by June**  
 - Suggests a **relationship between reduced wait times and improved patient experience**  
 
----
 
 ###  Department-Level Insights
 - **Emergency Department:**
@@ -112,15 +98,12 @@ The goal of this project is to deliver a **data-driven dashboard solution** that
 
  **Emergency identified as the primary bottleneck**
 
----
-
 ###  Critical Insight: Patient Experience Gap
 Despite operational improvements:
 - Overall satisfaction remains low at **19.7%**  
 - Indicates a gap between **service delivery and patient expectations**  
 - Suggests that factors beyond wait time (e.g., communication, care quality) influence satisfaction  
 
----
 
 ##  Business Impact
 
@@ -133,14 +116,12 @@ This analysis provides actionable insights that enable healthcare providers to:
 - **Minimise revenue loss** associated with LWBS cases  
 - **Support sustainable operations**, reducing risk of staff burnout  
 
----
 
 ##  Tools & Technologies
 - **Power BI** – Dashboard development and visualisation  
 - **DAX (Data Analysis Expressions)** – KPI calculations  
-- **Data Modelling** – Structured dataset for analysis  
+  
 
----
 
 ##  Dataset
 The dataset consists of anonymised patient records, including:
@@ -149,7 +130,6 @@ The dataset consists of anonymised patient records, including:
 - Wait duration  
 - Length of stay  
 - Patient satisfaction indicator  
-
 ---
 
 

@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 # Set page configuration
 st.set_page_config(page_title="Pure Life Hospital: Time Intelligence Analysis", 
-                   page_icon= ":stethoscope:",
+                   page_icon= "🩺",
                    layout="wide")
 
 # --- 1. TITLE BANNER ---
@@ -64,7 +64,7 @@ with tabs[1]:
     st.divider()
 
     # Replace the URL below with your actual Power BI Embed Link
-    power_bi_url = "https://app.powerbi.com/reportEmbed?reportId=YOUR_REPORT_ID_HERE"
+    power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiYzc5ODk1OWYtYTcxMS00MDAxLTkzYTYtNDI3YzBkM2FlY2NkIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9"
     
     components.iframe(power_bi_url, height=800, scrolling=True)
 

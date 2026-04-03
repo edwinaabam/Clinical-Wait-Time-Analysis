@@ -54,14 +54,14 @@ with tabs[1]:
     #st.header("Interactive Clinical Dashboard")
     
     # Replicating the requested KPIs for consistency on the Live page
-    k1, k2, k3, k4, k5 = st.columns(5)
-    k1.metric("Avg LOS", "145 min")
-    k2.metric("Avg Wait for Doctor", "55 min")
-    k3.metric("Avg Consultation", "45 min")
-    k4.metric("LWBS Rate %", "3.1%")
-    k5.metric("Satisfaction Rate %", "19.7%")
+    #k1, k2, k3, k4, k5 = st.columns(5)
+    #k1.metric("Avg LOS", "145 min")
+    #k2.metric("Avg Wait for Doctor", "55 min")
+    #k3.metric("Avg Consultation", "45 min")
+    #k4.metric("LWBS Rate %", "3.1%")
+    #k5.metric("Satisfaction Rate %", "19.7%")
     
-    st.divider()
+    #st.divider()
 
     # Replace the URL below with your actual Power BI Embed Link
     power_bi_url = "https://app.powerbi.com/view?r=eyJrIjoiYzc5ODk1OWYtYTcxMS00MDAxLTkzYTYtNDI3YzBkM2FlY2NkIiwidCI6IjhkMWE2OWVjLTAzYjUtNDM0NS1hZTIxLWRhZDExMmY1ZmI0ZiIsImMiOjN9"

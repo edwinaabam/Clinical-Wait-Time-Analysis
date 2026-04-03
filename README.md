@@ -10,7 +10,6 @@
 - [Interpretation](#interpretation)
 - [Business Impact](#business-impact)
 - [Tools](#tools)
-- [Author](#author)
 
 ---
 

@@ -16,13 +16,11 @@
 ## Overview
 Power BI dashboard analysing patient wait times and clinical flow to identify inefficiencies and improve operational performance.
 
----
 
 ## Problem
 Pure Life Hospital is experiencing excessive patient wait times, leading to long lengths of stay, patients leaving without being seen (LWBS), and low satisfaction (19.7%).  
 The core issue is high **non-value-added time**, driven by poor alignment between patient demand and staffing during peak periods.
 
----
 
 ## Key Metrics
 - Average Length of Stay (LOS): 145 minutes  
@@ -31,7 +29,6 @@ The core issue is high **non-value-added time**, driven by poor alignment betwee
 - LWBS Rate: 3.1%  
 - Patient Satisfaction Rate: 19.7%  
 
----
 
 ## Key Insights
 
@@ -57,7 +54,6 @@ Emergency is the primary constraint on patient flow.
 - Indicates that wait time reduction alone is insufficient  
 - Suggests influence of additional factors (e.g. service quality, communication)
 
----
 
 ## Interpretation
 
@@ -66,7 +62,6 @@ Emergency is the primary constraint on patient flow.
 - Reduction in wait time improves satisfaction, but not enough to offset overall experience issues  
 - A large portion of time spent in the system is **non-value-added**
 
----
 
 ## Business Impact
 
@@ -76,13 +71,11 @@ Emergency is the primary constraint on patient flow.
 - Addressing both operational efficiency and patient experience is required to improve satisfaction  
 - Failure to act risks continued revenue loss and staff burnout  
 
----
 
 ## Tools
 - Power BI  
 - DAX  
 
----
 
 ## Author
 Edwina Abam  

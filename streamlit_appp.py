@@ -10,7 +10,7 @@ st.set_page_config(page_title="Pure Life Hospital: Time Intelligence Analysis",
 # --- 1. TITLE BANNER (Slim Version) ---
 st.markdown("""
     <div style="background-color:#04784D; padding: 10px 20px; border-radius:10px; margin-bottom:15px; border: 1px solid #dcdcdc;">
-    <h2 style="color:white; text-align:center; font-family:sans-serif; margin:0; line-height:1.2;">Pure Life Time Intelligence Dashboard</h2>
+    <h2 style="color:white; text-align:center; font-family:sans-serif; margin:0; line-height:1.2;">Pure Life Hospital: Clinical Wait Time Intelligence Dashboard</h2>
     <p style="color:white; text-align:center; font-size:16px; margin:2px 0 0 0;">Clinical Flow & Wait Time Operational Analysis</p>
     </div>
     """, unsafe_allow_html=True)
